@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieBooking", "MovieBooking\MovieBooking.csproj", "{2F628583-8D08-4AA4-8CC1-F8B08C2A9C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieBooking.Tests", "MovieBooking.Tests\MovieBooking.Tests.csproj", "{7546847F-F2DA-4C95-8BFF-90B062D0C046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F628583-8D08-4AA4-8CC1-F8B08C2A9C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F628583-8D08-4AA4-8CC1-F8B08C2A9C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F628583-8D08-4AA4-8CC1-F8B08C2A9C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F628583-8D08-4AA4-8CC1-F8B08C2A9C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7546847F-F2DA-4C95-8BFF-90B062D0C046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7546847F-F2DA-4C95-8BFF-90B062D0C046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7546847F-F2DA-4C95-8BFF-90B062D0C046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7546847F-F2DA-4C95-8BFF-90B062D0C046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
