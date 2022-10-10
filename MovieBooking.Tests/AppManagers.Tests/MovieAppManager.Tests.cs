@@ -1,16 +1,17 @@
 using MovieBooking.AppManagers;
 using FluentAssertions;
-namespace MovieBooking.Tests;
+
+namespace MovieBooking.Tests.AppManagers.Tests;
 
 
 public class Tests
 {
- 
+
     private MovieAppManager appManager;
     [SetUp]
     public void Setup()
     {
-        appManager = new MovieAppManager();   
+        appManager = new MovieAppManager();
     }
 
     [Test]
