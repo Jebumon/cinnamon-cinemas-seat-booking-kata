@@ -8,8 +8,9 @@ namespace MovieBooking.Models
 {
     public class Seat
     {
-        public int Seat_No { get; set; }
-        public int Seat_Row { get; set; }
-        public int Seat_Column { get; set; }
+        public int Seat_No { get; set; } = 0;
+        public string? Seat_Id { get; set; }
+        public bool Is_Vacant { get; set; } = true;
+        
     }
 }
