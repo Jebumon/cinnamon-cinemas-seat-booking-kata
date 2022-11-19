@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MovieBooking.Models
 {
-    public class SeatList
+    public class ScreenList
     {
-       public List<Seat>? seats  { get; set; } = new List<Seat>();
+        public List<Screen> screens = new List<Screen>();
     }
 }

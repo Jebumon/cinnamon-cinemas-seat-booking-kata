@@ -10,11 +10,11 @@ namespace MovieBooking.Tests.Models.Tests
 {
     internal class ScreenTests
     {
-        private Screen Screen;
+        private ScreenManager Screen;
         [SetUp]
         public void Setup()
         {
-            Screen = new Screen();
+            Screen = new ScreenManager();
         }
 
         
@@ -24,9 +24,9 @@ namespace MovieBooking.Tests.Models.Tests
         {
             //Arrange
             char seatRow = 'A';
-            int numberOfRows = 5;
-            int numberOfColumns = 3;
-            SeatList seatList = new SeatList();
+            int numberOfRows = 10;
+            int numberOfColumns = 10;
+            Screen seatList = new Screen();
 
             for (int j = 1; j <= numberOfColumns; j++)
             {
@@ -34,16 +34,16 @@ namespace MovieBooking.Tests.Models.Tests
                 {
                     Seat seat = new Seat();
                     seat.Seat_No += 1;
-                    seat.Seat_Id = i + seatRow.ToString();
+                    seat.Seat_Id = seatRow.ToString() + i;
                     seat.Is_Vacant = true;
                     seatList.seats.Add(seat);
                 }
                 seatRow++;
             }
-            SeatList expectedSeatList = seatList;
+            Screen expectedSeatList = seatList;
             //Act
-            SeatList outputSeatList = Screen.CreateScreen(numberOfRows, numberOfColumns);
-            // Assert
+            Screen outputSeatList = Screen.CreateScreen(numberOfRows, numberOfColumns);
+            //Assert
             Assert.AreEqual(expectedSeatList.seats.Count, outputSeatList.seats.Count);
  
         }
