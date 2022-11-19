@@ -32,9 +32,5 @@ namespace MovieBooking.AppManagers
         }
 
 
-
-        
-
-
     }
 }
