@@ -10,7 +10,12 @@ namespace MovieBooking.AppManagers
     public class ScreenManager
     {
         
-        ScreenList screenList = new ScreenList();
+        private ScreenList screenList { get; set; }
+
+        public ScreenManager(ScreenList screenList)
+        {
+            this.screenList = screenList;
+        }
 
         char seatRow = 'A';
         public Screen CreateScreen(string screenName, string movieName, int numberOfRows, int numberOfColumns)

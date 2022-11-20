@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using MovieBooking.Models;
 using MovieBooking.AppManagers;
 
@@ -7,7 +7,7 @@ while (true)
 {
     Console.Title = "Cinamon Cinemas";
 
-    Console.WriteLine("Please enter 'A' for Admin / enter 'T' for Ticket booking");
+    Console.WriteLine("Please enter 'A' for Admin /'T' for Ticket booking /'S' for status");
     string? menuSelecter = Console.ReadLine();
     if (menuSelecter == "A")
     {
@@ -15,6 +15,10 @@ while (true)
     }
     else if (menuSelecter == "T")
     {
-        Console.WriteLine("Menu is under development");
+        TheaterManager.UpdateData();
+    }
+    else if (menuSelecter == "S")
+    {
+        TheaterManager.TheaterStatus();
     }
 }

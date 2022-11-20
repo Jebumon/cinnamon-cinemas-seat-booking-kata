@@ -9,13 +9,13 @@ namespace MovieBooking.AppManagers
 {
     public class MovieAppManager
     {
-        private ScreenManager screenManager = new ScreenManager();
-        private DisplayManager displayManager = new DisplayManager();
-
-
-        public MovieAppManager()
+        private ScreenList screenList { get; set; }
+        
+        public MovieAppManager(ScreenList screenListt)
         {
+            screenList = screenListt;
         }
+
 
         public string BookSeats(int numberofSeatsRequred) 
         {
@@ -24,9 +24,10 @@ namespace MovieBooking.AppManagers
 
         public void AddScreen(string screenName, string movieName, int seatNoOfRows, int seatNoOfColums) 
         {
+            ScreenManager screenManager = new ScreenManager(screenList);
             var screen = screenManager.CreateScreen(screenName, movieName, seatNoOfRows, seatNoOfColums);
 
-            displayManager.Visualize(screen);
+            DisplayManager.Visualize(screen);
 
             Console.WriteLine( "Screen created Successfully");
         }
