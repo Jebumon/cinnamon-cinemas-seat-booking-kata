@@ -20,12 +20,14 @@ Currently the application has two menu, one with Admin functionalities and other
     * User can select the required Theater/Screen
     * Can select the movie
     * Can book the number of tickets requried.
+    
 ## Demo Videos
    ### Admin Menu
-https://user-images.githubusercontent.com/67691782/202930149-f96c4fc2-1a7d-4f4f-a1ac-136247118924.mp4
+https://user-images.githubusercontent.com/67691782/202930905-eee025fb-2766-4287-8669-8fdef5d68d7b.mp4
 
    ### Booking Menu
-https://user-images.githubusercontent.com/67691782/202930209-8b6657dd-25f6-4ee8-82f6-42406f1b2587.mp4
+https://user-images.githubusercontent.com/67691782/202931295-bf78174d-d44c-415d-8af9-cc8aa6d3819d.mp4
+
 
 ## Upcomming Enhancements
 1. Add functionality for booking cancellations.
