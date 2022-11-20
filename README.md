@@ -11,7 +11,7 @@ IDE      : Visual Studio 2022
 ![Cinnamon Cinemas-UML](https://user-images.githubusercontent.com/67691782/202930132-0e17a6d7-ed1b-4102-88c1-f13239d789ad.svg)
 
 The application is designed in very extensible way.
-Currently the application has two menu, one with Admin functionalities and other for the user interaction.
+Currently the application has three menu, one with Admin functionalities and next onr for the ticket booking and other one is for seeing the status of all the screens/theator's.
 1. Admin Menu
     * Can add the Threaters or Screen
     * Can add Movies
