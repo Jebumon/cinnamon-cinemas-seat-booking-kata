@@ -39,11 +39,15 @@ namespace MovieBooking.AppManagers
                                  TotalCapasity = screen.seats.Count(), 
                                  TotalAvailable = screen.seats.Where(s=>s.Is_Vacant == true).Count()};
             foreach(var details in allDetails) 
-            {
+            {if (details.TotalAvailable == 0) 
+                {
+                    Console.ForegroundColor= ConsoleColor.Red;
+                }
                 Console.WriteLine($"Screen Name : {details.TheaterName}");
                 Console.WriteLine($"\tMovie Name     : {details.CinemaName}");
                 Console.WriteLine($"\tTotal Seats    : {details.TotalCapasity}");
                 Console.WriteLine($"\tAvailabe Seats : {details.TotalAvailable}");
+                Console.ForegroundColor = ConsoleColor.Green;
             }
             Console.ResetColor();
         }

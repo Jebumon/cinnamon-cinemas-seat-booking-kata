@@ -23,7 +23,7 @@ namespace MovieBooking.AppManagers
                 int seatColumsNo = 0;
                 string? screenName = "No Name";
                 string? movieName = "No Name";
-                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("********* Cinnamon Cinemas Admin menu ***********\n");
                 Console.WriteLine("Please enter a Screen name to create screen");
                 screenName = Console.ReadLine();
@@ -85,7 +85,8 @@ namespace MovieBooking.AppManagers
             {
                 if (screen.MovieName == movieName && screen.ScreenName == screenName) 
                 {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
                     Console.WriteLine("Please note the Booked Seat ID's : ");
                     foreach (var seat in screen.seats) 
                     {
@@ -93,13 +94,14 @@ namespace MovieBooking.AppManagers
                         {
                             seat.Is_Vacant = false;
                             requiredSeats--;
-                            Console.WriteLine($"\t                   -- {seat.Seat_Id}");
+                            Console.WriteLine($"\t                            -- {seat.Seat_Id}");
                         }
 
                         if(requiredSeats == 0) 
                         {
-                            Console.ResetColor();
+                            
                             Console.WriteLine("Seats Booked!! Thank you..\n");
+                            Console.ResetColor();
 
                             return;
                         }
