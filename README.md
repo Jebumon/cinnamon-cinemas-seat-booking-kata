@@ -3,10 +3,10 @@
 The Aim of the project is to develop a program to allocate seats to customers, purchasing tickets for a Cinnamon Cinemas movie theatre. Console Application is designed based on common Object Oriented Programming principles and to bulid my coding skills. As we know the Test Driven Developemt(TDD) is an important code practice to develop a higher quality code, here I have implemented the TDD approach.
 Below is the UML design of the project.
 
-## Technologies Involved
+### Technologies Involved
 language : C# .NET Framework , NUnit Framework
 IDE      : Visual Studio 2022
-## How it works
+# How it works
 The application is designed in very extensible way.
 ## UML Diagram (initial design)
 ![Cinnamon Cinemas-UML](https://user-images.githubusercontent.com/67691782/202930132-0e17a6d7-ed1b-4102-88c1-f13239d789ad.svg)
