@@ -7,10 +7,10 @@ Below is the UML design of the project.
 language : C# .NET Framework , NUnit Framework
 IDE      : Visual Studio 2022
 # How it works ?
-The application is designed in very extensible way.
 ## UML Diagram (initial design)
 ![Cinnamon Cinemas-UML](https://user-images.githubusercontent.com/67691782/202930132-0e17a6d7-ed1b-4102-88c1-f13239d789ad.svg)
 
+The application is designed in very extensible way.
 Currently the application has two menu, one with Admin functionalities and other for the user interaction.
 1. Admin Menu
     * Can add the Threaters or Screen
