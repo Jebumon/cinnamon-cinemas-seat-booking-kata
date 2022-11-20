@@ -17,7 +17,7 @@ namespace MovieBooking.AppManagers
             var seats = screen.seats;
             foreach (var seat in seats) 
             {
-                Console.WriteLine($"Seat no : {seat.Seat_No} Seat Id : {seat.Seat_Id} Is vacant : {seat.Is_Vacant}");
+                Console.WriteLine($"Seat no : {seat.Seat_No},  Seat Id : {seat.Seat_Id},  Is vacant : {seat.Is_Vacant}");
             }
 
         }

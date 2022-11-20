@@ -85,8 +85,8 @@ namespace MovieBooking.AppManagers
             {
                 if (screen.MovieName == movieName && screen.ScreenName == screenName) 
                 {
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                    
                     Console.WriteLine("Please note the Booked Seat ID's : ");
                     foreach (var seat in screen.seats) 
                     {
