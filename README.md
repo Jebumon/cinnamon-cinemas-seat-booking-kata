@@ -12,14 +12,16 @@ IDE      : Visual Studio 2022
 
 The application is designed in very extensible way.
 Currently the application has three menu, one with Admin functionalities and next onr for the ticket booking and other one is for seeing the status of all the screens/theator's.
-1. Admin Menu
+1. 'A' Admin Menu
     * Can add the Threaters or Screen
     * Can add Movies
     * Seat planning
-2. User Menu/ Tickets Booking Menu
+2. 'T' Tickets Booking Menu
     * User can select the required Theater/Screen
     * Can select the movie
     * Can book the number of tickets requried.
+3. 'S' Status menu
+     * Seeing Status of the screens/theators
     
 ## Demo Videos
    ### Admin Menu
