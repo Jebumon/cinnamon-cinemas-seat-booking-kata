@@ -1,4 +1,5 @@
 ﻿##Cinnamon Cinemas Movie Theatre
+
 The Aim of the project is to develop a program to allocate seats to customers purchasing tickets for a Cinnamon Cinemas movie theatre. Console Application is designed based on common Object Oriented Programming principles and to bulid my coding skills. As we know the Test Driven Developemt(TDD) is an important code practice to develop a higher quality code, here I have implemented the TDD approach.
 Below is the UML design of the project.
 ##Technologies Involved
