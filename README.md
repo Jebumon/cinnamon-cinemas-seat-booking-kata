@@ -6,7 +6,7 @@ Below is the UML design of the project.
 ### Technologies Involved
 language : C# .NET Framework , NUnit Framework
 IDE      : Visual Studio 2022
-# How it works
+# How it works ?
 The application is designed in very extensible way.
 ## UML Diagram (initial design)
 ![Cinnamon Cinemas-UML](https://user-images.githubusercontent.com/67691782/202930132-0e17a6d7-ed1b-4102-88c1-f13239d789ad.svg)
